@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en"></html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,61 +86,64 @@
 <body>
     <header>
         E-Learning Platform
-    </header><div class="form-container" id="signup-form">
-    <h2>Sign Up</h2>
-    <form onsubmit="showDashboard(event)">
-        <input type="text" placeholder="Full Name" required><br>
-        <input type="email" placeholder="Email" required><br>
-        <input type="password" placeholder="Password" required><br>
-        <button type="submit">Register</button>
-    </form>
-</div>
+    </header>
 
-<div class="form-container" id="login-form">
-    <h2>Login</h2>
-    <form onsubmit="showDashboard(event)">
-        <input type="email" placeholder="Email" required><br>
-        <input type="password" placeholder="Password" required><br>
-        <button type="submit">Login</button>
-    </form>
-</div>
+    <div class="form-container" id="signup-form">
+        <h2>Sign Up</h2>
+        <form onsubmit="showDashboard(event)">
+            <input type="text" placeholder="Full Name" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
 
-<div class="container dashboard" id="dashboard" style="display: none;">
-    <h2>Welcome to Your Learning Dashboard</h2>
-    <div class="dashboard-box" onclick="showChapters()">
-        <h3>Courses</h3>
-        <p>Explore all available courses.</p>
+    <div class="form-container" id="login-form">
+        <h2>Login</h2>
+        <form onsubmit="showDashboard(event)">
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
     </div>
-    <div class="dashboard-box" onclick="showChapters()">
-        <h3>Live Class</h3>
-        <p>Join live sessions with expert instructors.</p>
-    </div>
-    <div class="dashboard-box" onclick="showChapters()">
-        <h3>Doubt Solving Sessions</h3>
-        <p>Get your questions answered by experts.</p>
-    </div>
-    <h3>Categories</h3>
-    <div class="dashboard-box" onclick="showChapters()">
-        <h3>CBSE</h3>
-        <p>Explore CBSE syllabus with detailed explanations.</p>
-    </div>
-    <div class="dashboard-box" onclick="showChapters()">
-        <h3>JEE</h3>
-        <p>Prepare for IIT JEE with expert-guided courses.</p>
-    </div>
-    <div class="dashboard-box" onclick="showChapters()">
-        <h3>NEET</h3>
-        <p>Crack NEET with the best resources and live classes.</p>
-    </div>
-</div>
 
-<div class="container chapters" id="chapters" style="display: none;">
-    <h2>Chapters & Study Materials</h2>
-    <div class="chapter-box">
-        <h3>Chapter 1: Introduction to Physics</h3>
-        <p><a href="https://youtu.be/m5VbK66a254?si=u8AITK7RNkJqU7vl" target="_blank">Watch Video</a> | <a href="leph105.pdf" download>Download Material</a></p>
+    <div class="container dashboard" id="dashboard" style="display: none;">
+        <h2>Welcome to Your Learning Dashboard</h2>
+        <div class="dashboard-box" onclick="showChapters()">
+            <h3>Courses</h3>
+            <p>Explore all available courses.</p>
+        </div>
+        <div class="dashboard-box" onclick="showChapters()">
+            <h3>Live Class</h3>
+            <p>Join live sessions with expert instructors.</p>
+        </div>
+        <div class="dashboard-box" onclick="showChapters()">
+            <h3>Doubt Solving Sessions</h3>
+            <p>Get your questions answered by experts.</p>
+        </div>
+        <h3>Categories</h3>
+        <div class="dashboard-box" onclick="showChapters()">
+            <h3>CBSE</h3>
+            <p>Explore CBSE syllabus with detailed explanations.</p>
+        </div>
+        <div class="dashboard-box" onclick="showChapters()">
+            <h3>JEE</h3>
+            <p>Prepare for IIT JEE with expert-guided courses.</p>
+        </div>
+        <div class="dashboard-box" onclick="showChapters()">
+            <h3>NEET</h3>
+            <p>Crack NEET with the best resources and live classes.</p>
+        </div>
     </div>
-</div>
+
+    <div class="container chapters" id="chapters" style="display: none;">
+        <h2>Chapters & Study Materials</h2>
+        <div class="chapter-box">
+            <h3>Chapter 1: Introduction to Physics</h3>
+            <p><a href="https://youtu.be/m5VbK66a254?si=u8AITK7RNkJqU7vl" target="_blank">Watch Video</a> | 
+            <a href="https://www.iitg.ac.in/physics/fac/saurabh/ph101/Lecture3.pdf" download>Download Material</a></p>
+        </div>
+    </div>
 
 </body>
 </html>
